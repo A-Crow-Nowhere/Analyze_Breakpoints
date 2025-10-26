@@ -1,5 +1,9 @@
-### A small little packages for identifying the AT content, likelyhood to form a hairpin, and intergenic/genomic position from a bed file.
+## A small little packages for identifying the AT content, likelyhood to form a hairpin, and intergenic/genomic position from a bed file.
 
+Referenced [here](https://www.biorxiv.org/content/10.1101/2024.12.19.629492v1.full)
+
+
+### This install guide assumes that you are installing the program (and envrionment) to your home directory
 ```bash
 cd~
 cd envs/yaml
