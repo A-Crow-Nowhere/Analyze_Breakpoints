@@ -1,0 +1,8 @@
+name: breakpointenv
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - viennarna           # from ViennaRNA package
+  - coreutils           # for standard Unix tools like `awk`, `cut`, etc.
