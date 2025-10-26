@@ -1,15 +1,15 @@
 ```bash
 cd~
 cd envs/yaml
-wget https://raw.githubusercontent.com/A-Crow-Nowhere/MalariAPI/main/yaml/breakpoints.yml
+wget https://raw.githubusercontent.com/A-Crow-Nowhere/Analyze_Breakpoints/main/breakpoints.yml
 conda env create -f breakpoints.yml
 conda activate breakpointenv
 
 cd~
 mkdir -p tools/breakpoints/
 cd tools/breakpoints/
-wget https://raw.githubusercontent.com/A-Crow-Nowhere/MalariAPI/main/scripts/analyze_breakpoints/breakpoints.sh
-wget https://raw.githubusercontent.com/A-Crow-Nowhere/MalariAPI/main/scripts/analyze_breakpoints/intergenic.sh
+wget https://raw.githubusercontent.com/A-Crow-Nowhere/Analyze_Breakpoints/main/analyze_breakpoints/breakpoints.sh
+wget https://raw.githubusercontent.com/A-Crow-Nowhere/Analyze_Breakpoints/main/analyze_breakpoints/intergenic.sh
 chmod +x breakpoints.sh
 
 #Call DG minima in 2000bp range around teh 5'&3' region of a bed region in sliding 50bp windows.
