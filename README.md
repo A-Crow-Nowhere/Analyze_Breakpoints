@@ -1,3 +1,5 @@
+### A small little packages for identifying the AT content, likelyhood to form a hairpin, and intergenic/genomic position from a bed file.
+
 ```bash
 cd~
 cd envs/yaml
